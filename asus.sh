@@ -160,7 +160,7 @@ clone() {
 	echo " "
 	if [ $COMPILER = "clang" ]
 	then
-		msg "|| Cloning Clang-14 ||"
+		msg "|| Cloning Clang-15 ||"
 		git clone --depth=1 https://gitlab.com/ElectroPerf/atom-x-clang.git $KERNEL_DIR/clang
 		# Toolchain Directory defaults to clang
 		TC_DIR=$KERNEL_DIR/clang

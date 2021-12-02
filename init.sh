@@ -1,10 +1,7 @@
 cd $HOME
 
 echo Cloning Sources
-git clone https://ElectroPerf:$GITHUB_TOKEN@github.com/ElectroPerf/android_kernel_asus_sdm660.git -b sapphire --depth=1 $HOME/kernel
-
-echo Installing Telegram API
-pip3 install telegram-send
+git clone https://ElectroPerf:$GITHUB_TOKEN@github.com/aospa-sdm660/android_kernel_asus_sdm660 --depth=1 $HOME/kernel
 
 echo Push Script
 cd $HOME/kernel
