@@ -5,4 +5,4 @@ git clone https://ElectroPerf:$GITHUB_TOKEN@github.com/aospa-sdm660/android_kern
 
 echo Push Script
 cd $HOME/kernel
-wget https://raw.githubusercontent.com/ElectroPerf/myscripts/X01BD/asus.sh
+wget https://raw.githubusercontent.com/ElectroPerf/myscripts/X00TD/asus.sh

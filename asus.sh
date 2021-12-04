@@ -49,10 +49,10 @@ cd $KERNEL_DIR
 BASEDIR="$(basename "$KERNEL_DIR")"
 
 # The name of the device for which the kernel is built
-MODEL="Asus Zenfone Max Pro M2"
+MODEL="Asus Zenfone Max Pro M1"
 
 # The codename of the device
-DEVICE="X01BD"
+DEVICE="X00TD"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
@@ -188,7 +188,7 @@ clone() {
 	fi
 
 	msg "|| Cloning Anykernel ||"
-	git clone --depth 1 https://github.com/ElectroPerf/AnyKernel3.git -b X01BD $KERNEL_DIR/AnyKernel3
+	git clone --depth 1 https://github.com/ElectroPerf/AnyKernel3.git -b X00TD $KERNEL_DIR/AnyKernel3
 	AK_DIR=$KERNEL_DIR/AnyKernel3
 }
 
